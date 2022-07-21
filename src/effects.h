@@ -151,6 +151,7 @@ void random_lights(){
       RgbColor oldColor = strip.GetPixelColor(pos);
       RgbColor newColor;
 
+
       if (random(100) < prob){
         if (oldColor == black) newColor = white(peak);
         else newColor = black;
